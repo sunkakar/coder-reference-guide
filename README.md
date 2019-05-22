@@ -1,2 +1,2 @@
 # coder-reference-guide
-Extra thicc gang 
+It does stuff. idk we'll add the description later 
