@@ -1,0 +1,70 @@
+[2019-05-22 15:22:29.555] [exthost] [info] extension host started
+[2019-05-22 15:22:29.581] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"activationEvent":"onLanguage:plaintext"}
+[2019-05-22 15:22:29.581] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/aaron-bond.better-comments-2.0.5/out/extension
+[2019-05-22 15:22:29.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:29.583] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-05-22 15:22:29.586] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:29.586] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-05-22 15:22:29.600] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:29.600] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-05-22 15:22:29.688] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:29.688] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-05-22 15:22:29.693] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:29.693] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/alefragnani.project-manager-10.5.1/dist/extension
+[2019-05-22 15:22:29.701] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:29.701] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2019-05-22 15:22:29.708] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:29.708] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-05-22 15:22:29.743] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:29.743] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/eamodio.gitlens-9.8.0/dist/extension
+[2019-05-22 15:22:29.836] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:29.836] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/esbenp.prettier-vscode-1.9.0/out/src/extension
+[2019-05-22 15:22:29.966] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:29.966] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-05-22 15:22:29.968] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:29.968] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-05-22 15:22:30.000] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:30.000] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/pkief.material-icon-theme-3.7.0/dist/extension
+[2019-05-22 15:22:30.020] [exthost] [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:30.020] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/pranaygp.vscode-css-peek-2.2.0/out/client/src/extension
+[2019-05-22 15:22:30.063] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:30.063] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2019-05-22 15:22:30.261] [exthost] [info] ExtensionService#_doActivateExtension softwaredotcom.swdc-vscode {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:30.262] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/softwaredotcom.swdc-vscode-0.16.2/out/extension
+[2019-05-22 15:22:30.294] [exthost] [info] eager extensions activated
+[2019-05-22 15:22:30.533] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-05-22 15:22:30.533] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-05-22 15:22:57.724] [exthost] [info] extension host started
+[2019-05-22 15:22:57.746] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"activationEvent":"onLanguage:plaintext"}
+[2019-05-22 15:22:57.746] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/aaron-bond.better-comments-2.0.5/out/extension
+[2019-05-22 15:22:57.748] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:57.748] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-05-22 15:22:57.751] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:57.751] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-05-22 15:22:57.764] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:57.764] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-05-22 15:22:57.855] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:57.855] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-05-22 15:22:57.859] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:57.859] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/alefragnani.project-manager-10.5.1/dist/extension
+[2019-05-22 15:22:57.868] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:57.868] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2019-05-22 15:22:57.875] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:57.875] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-05-22 15:22:57.909] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:57.909] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/eamodio.gitlens-9.8.0/dist/extension
+[2019-05-22 15:22:58.016] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:58.016] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/esbenp.prettier-vscode-1.9.0/out/src/extension
+[2019-05-22 15:22:58.157] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:58.157] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-05-22 15:22:58.158] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:58.158] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-05-22 15:22:58.189] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:58.189] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/pkief.material-icon-theme-3.7.0/dist/extension
+[2019-05-22 15:22:58.208] [exthost] [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:58.208] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/pranaygp.vscode-css-peek-2.2.0/out/client/src/extension
+[2019-05-22 15:22:58.246] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:58.246] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2019-05-22 15:22:58.424] [exthost] [info] ExtensionService#_doActivateExtension softwaredotcom.swdc-vscode {"startup":true,"activationEvent":"*"}
+[2019-05-22 15:22:58.424] [exthost] [info] ExtensionService#loadCommonJSModule /home/sunnyd/.vscode/extensions/softwaredotcom.swdc-vscode-0.16.2/out/extension
+[2019-05-22 15:22:58.452] [exthost] [info] eager extensions activated
