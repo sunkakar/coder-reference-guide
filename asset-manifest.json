@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/coder-reference-guide/static/css/main.7e6ba4a8.chunk.css",
+    "main.js": "/coder-reference-guide/static/js/main.48aff857.chunk.js",
+    "main.js.map": "/coder-reference-guide/static/js/main.48aff857.chunk.js.map",
+    "runtime~main.js": "/coder-reference-guide/static/js/runtime~main.27517e7b.js",
+    "runtime~main.js.map": "/coder-reference-guide/static/js/runtime~main.27517e7b.js.map",
+    "static/js/2.a2615ae8.chunk.js": "/coder-reference-guide/static/js/2.a2615ae8.chunk.js",
+    "static/js/2.a2615ae8.chunk.js.map": "/coder-reference-guide/static/js/2.a2615ae8.chunk.js.map",
+    "index.html": "/coder-reference-guide/index.html",
+    "precache-manifest.5797ae594b2ee6b4e1898b044e29cc3b.js": "/coder-reference-guide/precache-manifest.5797ae594b2ee6b4e1898b044e29cc3b.js",
+    "service-worker.js": "/coder-reference-guide/service-worker.js",
+    "static/css/main.7e6ba4a8.chunk.css.map": "/coder-reference-guide/static/css/main.7e6ba4a8.chunk.css.map",
+    "static/media/logo.svg": "/coder-reference-guide/static/media/logo.5d5d9eef.svg"
+  }
+}
