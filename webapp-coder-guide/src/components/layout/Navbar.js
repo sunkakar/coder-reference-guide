@@ -5,13 +5,12 @@ import Toolbar from '@material-ui/core/Toolbar';
 import FilledInput from '@material-ui/core/FilledInput';
 import InputLabel from '@material-ui/core/InputLabel';
 import Typography from '@material-ui/core/Typography';
-import InputBase from '@material-ui/core/InputBase';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 import { withStyles } from '@material-ui/core/styles';
 import MenuItem from '@material-ui/core/MenuItem';
-import FormControl from '@material-ui/core/FormControl';
-import SearchIcon from '@material-ui/icons/Search';
 import Select from '@material-ui/core/Select';
+import Searchbar from './Searchbar';
+import Modefield from './ModeField';
 
 const styles = theme => ({
   root: {
@@ -74,45 +73,47 @@ const styles = theme => ({
   },
 });
 
-function SearchAppBar(props) {
-  const { classes } = props;
-  return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          <InputLabel htmlFor="filled-mode-simple">Any Language</InputLabel>
-          <Select
-            //value={this.state.mode}
-            //onChange={this.handleChange}
-            input={<FilledInput name="mode" id="filled-mode-simple" />}
-          >
-            <MenuItem value="">
-              <em>None</em>
-            </MenuItem>
-            <MenuItem value={10}>Ten</MenuItem>
-            <MenuItem value={20}>Twenty</MenuItem>
-            <MenuItem value={30}>Thirty</MenuItem>
-          </Select>
-          <Typography className={classes.title} variant="h6" color="inherit" noWrap>
-            Algorithm Look Up
-          </Typography>
-          <div className={classes.grow} />
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
+class SearchAppBar extends React.Component {
+
+    constructor(){
+        super()
+        this.state = {
+            mode: 'None'
+        } 
+        this.handleChange = this.handleChange.bind(this)
+    }
+
+    handleChange = event => {
+        this.setState({ [event.target.name]: event.target.value });
+      };
+
+    render() {
+        const { classes } = this.props;
+
+    
+        return (
+            <div className={classes.root}>
+            <AppBar position="static">
+                <Toolbar>
+                <InputLabel htmlFor="filled-mode-simple">Mode: </InputLabel>
+                
+                {/* Modefield Component */}
+                <Modefield/>
+                
+                <div className={classes.grow} />
+                <Typography className={classes.title} variant="h6" color="inherit" noWrap>
+                    Algorithm Look Up
+                </Typography>
+                <div className={classes.grow} />
+                
+                {/* Searchbar Component */}
+                <Searchbar/>
+                
+                </Toolbar>
+            </AppBar>
             </div>
-            <InputBase
-              placeholder="Search…"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-            />
-          </div>
-        </Toolbar>
-      </AppBar>
-    </div>
-  );
+        );
+    }
 }
 
 SearchAppBar.propTypes = {
