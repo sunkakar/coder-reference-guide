@@ -48,11 +48,17 @@ class ContentModal extends React.Component {
             onClose={this.handleClose}
           >
             <div style={{top: '45%', left: '37%'}} className={classes.paper}>
-              <Typography type="title" id="modal-title">
-                Text in a modal
+              <Typography className={classes.title} color="textSecondary" gutterBottom>
+                          LibraryName
               </Typography>
-              <Typography type="subheading" id="simple-modal-description">
-                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+              <Typography variant="h5" component="h2">
+                function_name()
+              </Typography>
+              <Typography className={classes.pos} color="textSecondary">
+                Language
+              </Typography>
+              <Typography variant="body2" component="p">
+                              A small description of the function. 
               </Typography>
             </div>
           </Modal>
