@@ -47,18 +47,18 @@ class ContentModal extends React.Component {
             open={this.state.open}
             onClose={this.handleClose}
           >
-            <div style={{top: '45%', left: '37%'}} className={classes.paper}>
-              <Typography className={classes.title} color="textSecondary" gutterBottom>
-                          LibraryName
+            <div style={{top: '50%', left: '50%',transform: 'translate(-50%, -50%)'}} className={classes.paper}>
+              <Typography color="textSecondary" gutterBottom>
+                LibraryName
               </Typography>
               <Typography variant="h5" component="h2">
                 function_name()
               </Typography>
-              <Typography className={classes.pos} color="textSecondary">
+              <Typography color="textSecondary">
                 Language
               </Typography>
               <Typography variant="body2" component="p">
-                              A small description of the function. 
+                A small description of the function. 
               </Typography>
             </div>
           </Modal>
