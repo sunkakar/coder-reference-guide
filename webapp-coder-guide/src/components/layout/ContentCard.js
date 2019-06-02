@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
-
+import ContentModal from './ContentModal';
 
 const styles = theme => ({
     card: {
@@ -19,6 +19,7 @@ const styles = theme => ({
       marginBottom: 12,
     }
 });
+
 
 
 class ContentCard extends React.Component {
@@ -51,7 +52,7 @@ class ContentCard extends React.Component {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">Read More</Button>
+                        <ContentModal/>
                     </CardActions>
                </Card>
             </div>
