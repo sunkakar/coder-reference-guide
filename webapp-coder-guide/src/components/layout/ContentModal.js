@@ -47,7 +47,7 @@ class ContentModal extends React.Component {
             open={this.state.open}
             onClose={this.handleClose}
           >
-            <div style={{top: '50%', left: '50%',transform: 'translate(-50%, -50%)'}} className={classes.paper}>
+            <div style={{top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}} className={classes.paper}>
               <Typography color="textSecondary" gutterBottom>
                 LibraryName
               </Typography>
